@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS folder/Style_home.css">
+    <title>Bienvenue au site web numéro 1 de réparation électroménager</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><a href="../HTML folder/html_Home.html"><img src="../Image folder/Logo_compagny.PNG" alt="Logo"></a></div>
+            <ul>
+                <li><a href="../HTML folder/html_Home.html">Accueil</a></li>
+                <li><a href="../HTML folder/html_about.html">À Propos</a></li>
+                <li><a href="#services">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="../HTML folder/Refregerateur.html">réfrigérateur</a></li>
+                        <li><a href="../HTML folder/Laveuse.html">Laveuse</a></li>
+                        <li><a href="..//HTML folder/Cuisiniere.html">cuisinière</a></li>
+                        <li><a href="..//HTML folder/Four.html">Four</a></li>
+                    </ul>
+                </li>
+                <li><a href="../HTML folder/html_Contact.html">Contacter nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <form action="/action_page.php" method="post" class="form" autocomplete="on">
+            <fieldset>
+
+                <legend>Contacter l'administateur</legend>
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="nom"required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="courriel">Courriel</label>
+                    <input type="email" id="courriel" name="courriel" placeholder="test@exemple.com" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="description" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <input type="submit" value="Envoyer" onclick="alert('Votre formulaire a été envoyée avec succès')">
+                </div>
+
+                <div class="form-group">
+                    <input type="reset" value="Effacer">
+                </div>
+            </fieldset>
+        </form>
+
+
+        <section class="secfinale">
+            <h2>Partenaire</h2>
+            <div>
+                <a href="https://www.kenmore.com/" target="_blank"><img src="../Image folder/Kenmore_logo.PNG" alt="Kenmore_logo"></a>
+            </div>
+            <div>
+                <a href="https://www.lg.com/ca_fr/" target="_blank"><img src="../Image folder/LG_logo.PNG" alt="LG-logo"></a>
+            </div>
+            <div>
+                <a href="https://www.samsung.com/ca_fr/" target="_blank"><img src="../Image folder/Samsung_logo.PNG" alt="Samsung_logo"></a>
+            </div>
+            <div>
+                <a href="https://www.bosch-home.ca/fr/" target="_blank"><img src="../Image folder/Bosch_logo.PNG" alt="Bosch_logo"></a> 
+            </div>
+            <div>
+                <a href="https://www.maytag.ca/en_ca.html" target="_blank"><img src="../Image folder/Maytag_logo.PNG" alt="Maytag_logo"></a>
+            </div>
+            
+            <h2 class="clear">Nous rejoindre aussi</h2>
+    
+            <ul>
+                <li><a href="https://www.facebook.com/?locale=fr_CA" target="_blank"><img src="../Image folder/facebook_icon.PNG" alt="Facebook_logo" class="icon"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="../Image folder/Instagram_icon.png" alt="Instagram_logo" class="icon"></a></li>
+                <li><a href="https://twitter.com/?lang=fr" target="_blank"><img src="../Image folder/twitter_icon.png" alt="Twitter_logo" class="icon"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="../Image folder/Youtube_icon.png" alt="Youtube_logo" class="icon"></a></li>
+            </ul>
+    
+            
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2023 Mon Site web Younes HICHAM | Tous droits réservés.</p>
+        <div><a href="../HTML folder/html_Contact.html">Contacter nous</a></div>
+    </footer>
+</body>
+</html>

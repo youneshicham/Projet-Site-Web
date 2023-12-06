@@ -1,0 +1,357 @@
+/*--------------------------------------Styles généraux---------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    background-color: rgb(244, 241, 241);
+    margin: 0 auto;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0 ;
+}
+
+li {
+    margin-top: 0px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li ul.dropdown li{ 
+    display: block;
+}
+
+ul.dropdown{
+    padding: 0px;
+    text-align: center;
+}
+
+ul li .dropdown{
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: #333;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/*----------------------------------Ajouter un style de la video------------------------------------------*/
+#videoo{ 
+    text-align: center;
+    background-color: white;
+}
+
+iframe{
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+}
+
+/*-------------------------------------- styles de header de la page ----------------------------------------*/
+header {
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+header li:hover{
+    background-color: rgb(88, 87, 87);
+    color: black;
+}
+header a:hover{
+    color: #ff9901;
+}
+header img{
+    height: 50px;
+    width: 300px;
+}
+
+/*----------------------------------- Styles de l'image de la page d'acceuil -----------------------------------*/
+.container1 img{
+    width: 100%;
+    height: 450px;
+}
+
+/*------------------------------------- Styles pour la 2eme section -------------------------------------------*/
+
+.container2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    margin: 80px;
+
+}
+
+.container2 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align:justify;
+    margin: 70px;
+}
+
+button{
+    background-color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px ;
+}
+
+button:hover{
+    background-color: #ff9901;
+    color: black;
+}
+
+
+/* ------------------------------------Style de la 3eme section -----------------------------*/
+.section3 {
+    background-color: rgb(244, 241, 241);
+}
+
+.content1 {
+    display: flex;
+    width: 90%; 
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text {
+    margin-right: 30px;
+    padding: 50px;
+}
+.text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin: 20px;
+}
+.text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texte {
+    margin-right: 10px;
+    padding: 50px;
+}
+.texte h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+.texte p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+/*
+.about .image {
+    flex-shrink: 0;  Empêche l'image de réduire sa taille 
+}
+.about img {
+    max-width: 100%;
+    height: auto;
+}*/
+
+.imgwar{
+    width: 200px;
+    margin: 100px;
+}
+
+
+/* ----------------------Styles de la section "Services" -------------------------------*/
+.services {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.service {
+    
+    margin: 20px;
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(244, 241, 241);
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service img{
+    width: 80px;
+}
+
+
+
+
+/*-------------------------------Section finale--------------------------------------*/
+
+.secfinale{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+.secfinale div{
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+.clear{
+    clear: both;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+.secfinale p{
+    float: left;
+    width: 10%;
+
+}
+
+.secfinale ul{
+    justify-content: center;
+}
+
+.secfinale h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.icon{
+    width: 50px;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;   
+}
+footer a:hover{
+    color: #ff9901;
+}
+
+footer p, div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+
+/*-------------------------------Styles pour le formulaire------------------------------*/
+main{
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('../Image folder/background_tel_email.PNG');
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display:block;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 95%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgb(244, 241, 241);
+    color: black;
+}
+
+textarea {
+    height: 100px;
+    color: black;
+}
+
+
+
+input[type="submit"], input[type="reset"]{
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #ff9901;
+    color: black;
+}
+
+legend{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+/*-----------------------------------Styles de page contact------------------------------------*/
+
+.contactcontainer{
+    border: 1px solid black;
+    margin: 20px;
+    background-image: url('../Image folder/background_tel_email.PNG');
+    background-color: #f1efef;
+    border-radius: 5px;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    float: right;
+}
+
+.contactcontainer h{
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+.contactcontainer img{
+    width: 100px;
+}
